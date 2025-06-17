@@ -10,6 +10,8 @@
 - 🎸 Seamless integration with ComfyUI
 - ✨ Includes a prompt-driven wizard node that generates complete ComfyUI
   workflows using the OpenAI API
+- 💬 New chat-based prompt generator node for crafting detailed prompts
+  before sending them to GPT Image
 
 ### Requirements
 
@@ -54,6 +56,7 @@ After restarting ComfyUI:
 
 - Locate the GPT-API node in the node list.
 - Configure your `api_base`, `auth_token`, and `model` parameters as needed.
+- Use the **GPT Prompt Chat** node to turn ideas into rich prompts.
 - Connect it to your workflow and start generating content with GPT!
 - To quickly build a workflow from a short description, search for the
   **Prompt To Workflow** node. Provide a textual prompt (e.g. "Generate a fantasy
