@@ -8,6 +8,8 @@
 - 🎸 Support for authentication tokens (`auth_token`)
 - 🎸 Easily specify different GPT models (`model`)
 - 🎸 Seamless integration with ComfyUI
+- ✨ Includes a prompt-driven wizard node that generates complete ComfyUI
+  workflows using the OpenAI API
 
 ### Requirements
 
@@ -53,6 +55,10 @@ After restarting ComfyUI:
 - Locate the GPT-API node in the node list.
 - Configure your `api_base`, `auth_token`, and `model` parameters as needed.
 - Connect it to your workflow and start generating content with GPT!
+- To quickly build a workflow from a short description, search for the
+  **Prompt To Workflow** node. Provide a textual prompt (e.g. "Generate a fantasy
+  portrait + depth upscaling + inpainting") and the node will request the OpenAI
+  API to create a compatible graph.
 
 In `v1.2.0`, support configure `api_base`, `auth_token` in the comfyui settings, as shown below:
 
