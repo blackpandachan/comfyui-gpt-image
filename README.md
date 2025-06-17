@@ -12,6 +12,8 @@
   workflows using the OpenAI API
 - 💬 New chat-based prompt generator node for crafting detailed prompts
   before sending them to GPT Image
+- 🔤 General purpose text generation node for summaries or story ideas
+  (`GPT Text Generate`)
 
 ### Requirements
 
@@ -57,6 +59,7 @@ After restarting ComfyUI:
 - Locate the GPT-API node in the node list.
 - Configure your `api_base`, `auth_token`, and `model` parameters as needed.
 - Use the **GPT Prompt Chat** node to turn ideas into rich prompts.
+- Generate stories or summaries with **GPT Text Generate**.
 - Connect it to your workflow and start generating content with GPT!
 - To quickly build a workflow from a short description, search for the
   **Prompt To Workflow** node. Provide a textual prompt (e.g. "Generate a fantasy
@@ -74,6 +77,16 @@ In `v1.2.0`, support configure `api_base`, `auth_token` in the comfyui settings,
 | api_base    | Base URL of your GPT API endpoint.                   |
 | auth_token  | Authentication token for secured API access.         |
 | model       | Model name to be used (e.g., `gpt-image-1`, `gpt-image-1-all`). |
+
+### Potential Additions
+
+These nodes demonstrate integration with the OpenAI API. More ideas for future
+custom nodes include:
+
+- Image variations or negative prompt generation
+- Translation and summarization utilities
+- Enhanced workflow creation with step-by-step instructions
+- Metadata or caption generation for media
 
 ### Troubleshooting
 
